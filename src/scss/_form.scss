@@ -1,0 +1,22 @@
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  height: 40px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: $body-text-color;
+  background-color: $white;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+
+  &:focus {
+    border-color: $primary;
+  }
+}

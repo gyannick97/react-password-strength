@@ -1,0 +1,22 @@
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-success {
+  color: $white;
+  background-color: $success;
+}
+
+.alert-warning {
+  color: $white;
+  background-color: $warning;
+}
+
+.alert-danger {
+  color: $white;
+  background-color: $danger;
+}

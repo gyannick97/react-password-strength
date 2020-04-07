@@ -1,0 +1,59 @@
+.navbar {
+  position: relative;
+  background-color: $white;
+  border-bottom: lightgray 1px solid;
+  padding: 0.6rem 1rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  .navbar-brand {
+
+    img {
+      max-width: 140px;
+    }
+  }
+
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    .nav-item {
+      display: inline-block;
+      margin-left: 2rem;
+      font-size: 1rem;
+
+      .nav-link {
+
+        &:hover {
+          color: $primary;
+        }
+      }
+
+      .btn {
+        padding: 0;
+      }
+    }
+
+    .nav-item.noti {
+      position: relative;
+
+      .noti-icon-badge {
+        display: inline-block;
+        position: absolute;
+        bottom: 4px;
+        right: 0;
+        border-radius: 50%;
+        height: 7px;
+        width: 7px;
+        background-color: $secondary;
+      }
+    }
+  }
+}

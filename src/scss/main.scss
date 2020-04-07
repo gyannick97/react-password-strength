@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+$family-sans-serif: 'Open Sans', sans-serif;
+
+$primary: #272d71;
+$secondary: #e4b201;
+
+$white: #ffffff;
+$danger: #e40101;
+$success: #19e401;
+$info: #01a5e4;
+$warning: #e4be01;
+
+$body-text-color: #4a4a4a;
+$body-bg-light: #f3f3f3;
+$bg-tab: #d8d8d8;
+
+@import "_alert";
+@import "_aside";
+@import "_button";
+@import "_form";
+@import "_general";
+@import "_grid";
+@import "_loader";
+@import "_navbar";
+@import "_progress";
+@import "_reboot";
+@import "_spacing";
+@import "_userTab";

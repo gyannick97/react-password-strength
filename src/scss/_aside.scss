@@ -1,0 +1,39 @@
+.aside {
+  max-width: 200px;
+  display: inline-block;
+  display: none;
+
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .nav-item {
+      margin-bottom: 1rem;
+
+      .nav-link {
+        color: $body-text-color;
+        font-size: 0.875rem;
+        padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+        border-radius: 0.3rem;
+        display: block;
+
+        &:hover {
+          background-color: $primary;
+          color: $white;
+          text-decoration: none;
+        }
+
+        svg {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .aside {
+    display: inline-block;
+  }
+}

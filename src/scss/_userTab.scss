@@ -1,0 +1,42 @@
+.user-tab {
+  width: 100%;
+
+  .navbar {
+    padding: 0;
+    border-bottom: none;
+
+    .navbar-nav {
+      width: 100%;
+      
+      .nav-item {
+        width: 50%;
+        margin-left: 0;
+        text-align: center;
+
+        .nav-link {
+          color: $body-text-color;
+          width: 100%;
+          display: block;
+          padding: 0.5rem 0;
+          background-color: $bg-tab;
+        }
+
+        .nav-link.active {
+          background-color: $white;
+        }
+      }
+    }
+  }
+
+  .user-tab-content {
+    background-color: $white;
+    padding: 3rem 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .user-tab {
+    width: calc(100% - 200px);
+    float: right;
+  }
+}

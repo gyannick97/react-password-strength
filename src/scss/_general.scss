@@ -1,0 +1,31 @@
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.float-right {
+  float: right;
+}
+
+.bg-danger {
+  background-color: $danger !important;
+}
+
+.bg-warning {
+  background-color: $warning !important;
+}
+
+.bg-success {
+  background-color: $success !important;
+}
